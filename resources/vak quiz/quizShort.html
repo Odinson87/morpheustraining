@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Morpheus Training - Resources</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/quiz.css"/>
+    <link rel="stylesheet" href="css/additional.css"/>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+	<script type="text/javascript" src="js/quiz.js"></script>
+</head>
+<body>
+
+<section data-type="quiz">
+   <h3>VAK Learning Styles Questionnaire</h3>
+   <div class="intro">
+      <img class="floatL" width="100" height="100" src="img/quizImage.jpg">
+      <p>Read each question and select one of the 3 options presented that represents your most frequent behaviour, most of the time.</p>
+      <div class="startBtn btn small center">Start</div>
+      <div class="clearFloat"></div>
+   </div>
+   <div class="questions">
+      <div class="question" data-id="1">
+         <h4>
+            <div class="questionId">1. </div>
+            When I operate new equipment I generally:
+         </h4>
+         <ul class="items updownUP" data-settings="scramble">
+            <li data-category="Visual">Read the instructions first</li>
+            <li data-category="Auditory">Listen to an explanation from someone who has used it before</li>
+            <li data-category="Kinaesthetic">Go ahead and have a go, I can figure it out as I use it</li>
+         </ul>
+      </div>
+      <div class="question" data-id="2">
+         <h4>
+            <div class="questionId">2. </div>
+            When I need directions for travelling I usually:
+         </h4>
+         <ul class="items updownUP" data-settings="scramble">
+            <li data-category="Visual">Look at a map</li>
+            <li data-category="Auditory">Ask for spoken directions</li>
+            <li data-category="Kinaesthetic">Follow my nose and maybe use a compass</li>
+         </ul>
+      </div>
+      <div class="question" data-id="3">
+         <h4>
+            <div class="questionId">3. </div>
+            When I cook a new dish, I like to:
+         </h4>
+         <ul class="items updownUP" data-settings="scramble">
+            <li data-category="Visual">Follow a written recipe</li>
+            <li data-category="Auditory">Call a friend for an explanation</li>
+            <li data-category="Kinaesthetic">Follow my instincts, testing as I cook</li>
+         </ul>
+      </div>
+   </div>
+   <div class="results" data-type="categories" data-show="all">
+      <div>Your scores for each category are below,the higher the score the more you prefer that learning style.</div>
+      <div class="category" data-title="Visual">
+         <h4>Visual</h4>
+         <div class="score"></div>
+         Someone with a Visual learning style has a preference for seen or observed things, including pictures, diagrams, demonstrations, displays, handouts, films, flip-chart, etc. These people will use phrases such as 'show me', 'let's have a look at that' and will be best able to perform a new task after reading the instructions or watching someone else do it first. These are the people who will work from lists and written directions and instructions.
+      </div>
+      <div class="category" data-title="Auditory">
+         <h4>Auditory</h4>
+         <div class="score"></div>
+         Someone with an Auditory learning style has a preference for the transfer of information through listening: to the spoken word, of self or others, of sounds and noises. These people will use phrases such as 'tell me', 'let's talk it over' and will be best able to perform a new task after listening to instructions from an expert. These are the people who are happy being given spoken instructions over the telephone, and can remember all the words to songs that they hear!
+      </div>
+      <div class="category" data-title="Kinaesthetic">
+         <h4>Kinaesthetic</h4>
+         <div class="score"></div>
+         Someone with a Kinaesthetic learning style has a preference for physical experience - touching, feeling, holding, doing, practical hands-on experiences. These people will use phrases such as 'let me try', 'how do you feel?' and will be best able to perform a new task by going ahead and trying it out, learning as they go. These are the people who like to experiment, hands-on, and never look at the instructions first!
+      </div>
+   </div>
+</section>
+  
+</body>
+</html>

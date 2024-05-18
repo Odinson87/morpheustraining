@@ -1,0 +1,4 @@
+.category{padding:20px; border-radius:4px;}
+.category[data-title="Visual"]{ background-color:#ffabab; }
+.category[data-title="Auditory"]{ background-color:#b0d8b0; }
+.category[data-title="Kinaesthetic"]{ background-color:#f3b47f; }

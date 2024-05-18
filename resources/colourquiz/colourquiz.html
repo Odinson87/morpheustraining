@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Morpheus Training - Resources</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/quiz.css"/>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+	<script type="text/javascript" src="js/quiz.js"></script>
+</head>
+<body>
+
+<section data-type="quiz">
+<h3>Behavioural Quiz</h3>
+<div class="intro">
+<img class="floatL" width="100" height="100" src="img/colourHead_100.jpg"/>
+<p>Short introduction sentence enticing visitor to click start</p>
+<div class="startBtn">Start</div>
+<div class="clearFloat"></div>
+</div>
+<div class="question">
+    <h4>put the following options in the correct order</h4>
+    <ul class="items sortable" data-title="set1" data-settings="scramble,tiles">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+	</ul>
+</div>
+<div class="question">
+    <h4>Like one, dislike one</h4>
+    <ul class="items updown" data-title="set2" data-settings="tiles">
+        <li data-category="blue">Blue</li>
+        <li data-category="green">Green</li>
+        <li data-category="red">Red</li>
+        <li data-category="yellow">Yellow</li>
+	</ul>
+</div>
+
+<div class="results" data-type="categories" data-show="most,least">
+  <div class="result" data-title="score">You scored:</div>
+  <div class="result" data-title="most">You are mostly:</div>
+  <div class="result" data-title="least">You are least:</div>
+  <div class="category" data-title="blue">
+  The blue category
+  </div>
+  <div class="category" data-title="green">
+  The green category
+  </div>
+  <div class="category" data-title="red">
+  The red category
+  </div>
+  <div class="category" data-title="yellow">
+  The yellow category
+  </div>
+</div>
+
+</section>
+  
+</body>
+</html>

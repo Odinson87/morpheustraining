@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /css/
+Disallow: /data/
+Disallow: /js/
+Disallow: /morpheus_old/
+Disallow: /resources/
